@@ -2,4 +2,4 @@ from app_backend import app
 
 @app.route("/")
 def index():
-    return "Welcome to flask"
+    return {"name": "Hello world!!"}
