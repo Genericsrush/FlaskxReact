@@ -1,6 +1,4 @@
-from flask import Flask
-
-app = Flask(__name__)
+from app_backend import app
 
 @app.route("/")
 def index():
